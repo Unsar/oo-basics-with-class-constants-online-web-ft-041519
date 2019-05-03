@@ -13,8 +13,8 @@ BRANDS=[]
     puts "Your shoe is as good as new!"
   end
 
-def brands=(brands)
-  @brands=brands
-  BRANDS << brands
+def brand=(brand)
+  @brand=brand
+  BRANDS << brand
 end
 end
