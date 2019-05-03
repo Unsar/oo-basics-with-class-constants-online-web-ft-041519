@@ -7,7 +7,7 @@ BRANDS = []
   def initialize(brand)
     @brand = brand
     BRANDS << @brand
-    Shoe::BRANDS
+    BRANDS.uniq!
   end
 
   def cobble
